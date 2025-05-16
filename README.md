@@ -44,17 +44,12 @@ Your webcam will activate, and the game window will appear.
 
 **🕹 How to Play**
 
-Make sure your hand is visible to the webcam.
-
-Use your index finger to "slice" fruits — swipe quickly through them.
-
-Slice as many fruits as possible. If you miss 3, it's game over.
-
-On the Game Over screen, press:
-
-R to restart the game
-
-Q to quit the game
+- Make sure your hand is visible to the webcam.
+- Use your index finger to "slice" fruits — swipe quickly through them.
+- Slice as many fruits as possible. If you miss 3, it's game over.
+- On the **Game Over** screen, press:
+  - `R` to restart the game
+  - `Q` to quit the game
 
 **🛠 Troubleshooting**
 
