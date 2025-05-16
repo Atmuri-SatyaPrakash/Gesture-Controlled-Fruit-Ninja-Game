@@ -31,14 +31,14 @@ Clone or download this repository.
 
 Open a terminal and navigate to the project folder:
 
-cd gesture_fruit_ninja
+<pre>cd gesture_fruit_ninja</pre>
 (Optional) Install dependencies again if needed:
 
-pip install opencv-python mediapipe
+<pre>pip install opencv-python mediapipe</pre>
 
 **Run the game:**
 
-python main.py
+<pre>python main.py</pre>
 
 Your webcam will activate, and the game window will appear.
 
