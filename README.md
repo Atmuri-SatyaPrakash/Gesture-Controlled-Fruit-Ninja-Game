@@ -3,21 +3,21 @@ Bring Fruit Ninja to life — no keyboard or mouse needed! This fun mini-project
 **🎮 Game Features**
 ✋ Real-time hand tracking with MediaPipe.
 
-🍓 Randomly falling fruits — slice them before they fall off the screen.
+**Randomly falling fruits :** slice them before they fall off the screen.
 
-⚔ Gesture slicing: Swipe quickly over fruits with your index finger to slice them.
+**Gesture slicing:** Swipe quickly over fruits with your index finger to slice them.
 
-❌ Missed fruits counter: Miss 3 and it's game over.
+**Missed fruits counter:** Miss 3 and it's game over.
 
-🧠 Swipe detection logic: Only fast hand swipes count — not just touching.
+**Swipe detection logic:** Only fast hand swipes count — not just touching.
 
-💬 Live HUD: Displays your score and how many fruits you’ve missed.
+**Live HUD:** Displays your score and how many fruits you’ve missed.
 
-💣 Game Over screen: Shows when you miss 3 fruits.
+**Game Over screen:** Shows when you miss 3 fruits.
 
-🔁 Restart or Exit: After game over, press R to restart or Q to quit.
+**Restart or Exit:** After game over, press R to restart or Q to quit.
 
-🍒 Smaller fruits for a more challenging experience.
+Smaller fruits for a more challenging experience.
 
 **🧰 Requirements**
 
