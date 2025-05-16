@@ -1,52 +1,71 @@
-# Gesture-Controlled-Fruit-Ninja-Game
-
-Bring Fruit Ninja to life — no keyboard or mouse needed! This fun mini-project lets you slice falling fruits with real-time hand gestures using your webcam. Built with OpenCV and MediaPipe, the game tracks your hand movements and turns them into slicing actions. Perfect for a quick interactive demo or just some creative fun with computer vision!
+Bring Fruit Ninja to life — no keyboard or mouse needed! This fun mini-project lets you slice falling fruits with real-time hand gestures using your webcam. Built using OpenCV and MediaPipe, the game detects your hand movements and turns them into slicing actions. Perfect for showcasing interactive computer vision!
 
 **🎮 Game Features**
-✋ Real-time hand tracking using MediaPipe.
-🍓 Fruits spawn randomly and fall from the top of the screen.
-⚔ Slice fruits by swiping your hand across them — just like in the original game!
-❌ Missed a fruit? Game over.
+✋ Real-time hand tracking with MediaPipe.
+
+🍓 Randomly falling fruits — slice them before they fall off the screen.
+
+⚔ Gesture slicing: Swipe quickly over fruits with your index finger to slice them.
+
+❌ Missed fruits counter: Miss 3 and it's game over.
+
+🧠 Swipe detection logic: Only fast hand swipes count — not just touching.
+
+💬 Live HUD: Displays your score and how many fruits you’ve missed.
+
+💣 Game Over screen: Shows when you miss 3 fruits.
+
+🔁 Restart or Exit: After game over, press R to restart or Q to quit.
+
+🍒 Smaller fruits for a more challenging experience.
 
 **🧰 Requirements**
-Make sure you have Python installed, then install the required libraries:
+Make sure you have Python installed. Then install the required libraries:
 
 pip install opencv-python mediapipe
-
 **▶ How to Run the Game**
 Clone or download this repository.
 
-Open a terminal or command prompt and navigate to the project folder:
+Open a terminal and navigate to the project folder:
 
 cd gesture_fruit_ninja
-Install dependencies (if not done already):
+(Optional) Install dependencies again if needed:
 
 pip install opencv-python mediapipe
 **Run the game:**
 
 python main.py
-The game window will open, and your webcam will activate. Start slicing!
+Your webcam will activate, and the game window will appear.
 
-🕹 **How to Play**
-Make sure your hand is visible in the webcam.
+**🕹 How to Play**
+Make sure your hand is visible to the webcam.
 
-Use your index finger to "slice" — a fast swipe motion will slice any fruit it intersects.
+Use your index finger to "slice" fruits — swipe quickly through them.
 
-**The goal**: Slice as many fruits as you can before one hits the bottom unsliced.
+Slice as many fruits as possible. If you miss 3, it's game over.
 
-🛠 **Troubleshooting**
-If the webcam doesn’t open or shows a black screen:
+On the Game Over screen, press:
 
-Make sure no other application is using your camera.
+R to restart the game
 
-Try changing the webcam index in the code (e.g., cv2.VideoCapture(0) to cv2.VideoCapture(1)).
+Q to quit the game
 
-Hand not detected?
+**🛠 Troubleshooting**
 
-Use a well-lit background.
+Webcam not working?
 
-Ensure your hand is clearly visible in the camera frame.
+Make sure no other app is using the camera.
 
-Performance issues?
+**Try changing the camera index:**
 
-Try reducing the resolution of the webcam capture for smoother gameplay.
+Replace cv2.VideoCapture(0) with cv2.VideoCapture(1) in the code.
+
+**Hand not detected?**
+
+Ensure good lighting.
+
+Keep your hand clearly visible in the frame.
+
+**Laggy or low FPS?**
+
+Reduce webcam resolution in the code for smoother performance.
