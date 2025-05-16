@@ -23,7 +23,7 @@ Smaller fruits for a more challenging experience.
 
 Make sure you have Python installed. Then install the required libraries:
 
-<pre> ```bash pip install opencv-python mediapipe ``` </pre>
+<pre>pip install opencv-python mediapipe</pre>
 
 **▶ How to Run the Game**
 
