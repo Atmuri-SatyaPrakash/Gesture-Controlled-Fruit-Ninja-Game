@@ -20,10 +20,13 @@ Bring Fruit Ninja to life — no keyboard or mouse needed! This fun mini-project
 🍒 Smaller fruits for a more challenging experience.
 
 **🧰 Requirements**
+
 Make sure you have Python installed. Then install the required libraries:
 
 pip install opencv-python mediapipe
+
 **▶ How to Run the Game**
+
 Clone or download this repository.
 
 Open a terminal and navigate to the project folder:
@@ -32,12 +35,15 @@ cd gesture_fruit_ninja
 (Optional) Install dependencies again if needed:
 
 pip install opencv-python mediapipe
+
 **Run the game:**
 
 python main.py
+
 Your webcam will activate, and the game window will appear.
 
 **🕹 How to Play**
+
 Make sure your hand is visible to the webcam.
 
 Use your index finger to "slice" fruits — swipe quickly through them.
