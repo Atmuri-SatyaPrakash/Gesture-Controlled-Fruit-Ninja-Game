@@ -58,20 +58,20 @@ Q to quit the game
 
 **🛠 Troubleshooting**
 
-Webcam not working?
+1. Webcam not working?
 
 Make sure no other app is using the camera.
 
-**Try changing the camera index:**
+2. **Try changing the camera index:**
 
 Replace cv2.VideoCapture(0) with cv2.VideoCapture(1) in the code.
 
-**Hand not detected?**
+3. **Hand not detected?**
 
 Ensure good lighting.
 
 Keep your hand clearly visible in the frame.
 
-**Laggy or low FPS?**
+4. **Laggy or low FPS?**
 
 Reduce webcam resolution in the code for smoother performance.
